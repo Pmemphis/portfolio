@@ -1,0 +1,132 @@
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body {
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 8px;
+    color: #222;
+  }
+  header p.tagline {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  section {
+    margin-bottom: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ddd;
+  }
+  section h2 {
+    margin-bottom: 15px;
+    color: #0077cc;
+    border-bottom: 2px solid #0077cc;
+    padding-bottom: 5px;
+  }
+  
+  /* About Me */
+  #about p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+  
+  /* Skills */
+  #skills ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  #skills ul li {
+    background: #0077cc;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  
+  /* Projects */
+  .project {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+  }
+  .project:last-child {
+    border-bottom: none;
+  }
+  .project h3 {
+    color: #222;
+    margin-bottom: 6px;
+  }
+  .project p {
+    margin-bottom: 6px;
+    font-size: 1rem;
+  }
+  .project a {
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+  
+  /* Contact */
+  #contact ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  #contact ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Resume button */
+  #resume {
+    text-align: center;
+  }
+  #resume a {
+    background: #0077cc;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  #resume a:hover {
+    background: #005fa3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    body {
+      padding: 15px;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+  }
+  
