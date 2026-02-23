@@ -1,107 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Mwithalie Pinidy Mwendia | Software Engineer Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mwithalie Pinidy | Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <div class="header-content">
-      <h1>Mwithalie Pinidy Mwendia</h1>
-      <p class="tagline">Software Engineering Student | Full-Stack Developer</p>
-      <div class="contact-bar">
-        <span>📍 Nairobi, Kenya</span> | 
-        <span>📞 0741189878</span> | 
-        <span>📧 <a href="mailto:pinidymwendia8@gmail.com">pinidymwendia8@gmail.com</a></span>
-      </div>
-    </div>
-  </header>
 
-  <main class="container">
-    <section id="profile">
-      <h2>Professional Profile</h2>
-      <p>
-        Highly motivated and performance-driven <strong>Software Engineering student (Third Year, Semester I)</strong> with hands-on experience in full-stack web development and enterprise systems exposure. Skilled in designing, developing, and deploying scalable web applications using modern technologies including <strong>Python (Django), Java, PHP, JavaScript, and SQL.</strong>
-      </p>
-      <p>
-        Demonstrated ability to translate business requirements into functional software solutions through academic and industrial training. Seeking Industrial Attachment II in a dynamic organization to contribute technical expertise to large-scale enterprise systems.
-      </p>
-    </section>
-
-    <section id="education">
-      <h2>Education</h2>
-      <div class="card">
-        <h3>BSc. Software Engineering</h3>
-        <p><strong>Kirinyaga University</strong> | Current: Third Year, Semester I</p>
-        <p class="coursework"><strong>Relevant Coursework:</strong> Software Architecture & Design, OOP (Java), Database Management, SDLC, Data Structures & Algorithms.</p>
-      </div>
-    </section>
-
-    <section id="experience">
-      <h2>Industrial Experience</h2>
-      <div class="card">
-        <h3>Software Development Attachee</h3>
-        <p><strong>Appkings Solution Limited</strong></p>
-        <ul>
-          <li>Developed and customized web-based business systems and backend logic.</li>
-          <li>Conducted software testing, debugging, and documentation for client requirements.</li>
-          <li>Strengthened understanding of real-world system deployment and structured development practices.</li>
-          <li>Completed 50+ days of training with a formal recommendation letter.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-category">
-          <strong>Languages:</strong> Python, Java, PHP, JavaScript, SQL
+    <nav>
+        <div class="nav-container">
+            <div class="logo">PM<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div class="skill-category">
-          <strong>Frameworks:</strong> Django, HTML5, CSS3, RESTful APIs
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <span class="badge">Available for Attachment II (May 2026)</span>
+            <h1>Mwithalie Pinidy Mwendia</h1>
+            <p class="subtitle">Software Engineering Student @ Kirinyaga University</p>
+            <div class="hero-contact">
+                <span><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</span>
+                <span><i class="fas fa-phone"></i> 0741189878</span>
+                <span><i class="fas fa-envelope"></i> pinidymwendia8@gmail.com</span>
+            </div>
+            <div class="hero-btns">
+                <a href="#contact" class="btn primary">Work With Me</a>
+                <a href="https://github.com/pmemphis" target="_blank" class="btn secondary"><i class="fab fa-github"></i> GitHub</a>
+            </div>
         </div>
-        <div class="skill-category">
-          <strong>Tools:</strong> Git, MySQL, Database Normalization, BC200 Exposure
+    </header>
+
+    <main class="container">
+        
+        <section id="profile" class="glass-card">
+            <h2><i class="fas fa-user-tie"></i> Professional Profile</h2>
+            <p>
+                Highly motivated and performance-driven <strong>Software Engineering student (Third Year, Semester I)</strong> with hands-on experience in full-stack web development and enterprise systems exposure. 
+            </p>
+            <p>
+                I specialize in translating complex business requirements into functional software solutions. Having successfully completed my first industrial attachment at <strong>Appkings Solution Ltd</strong>, I am now seeking an Attachment II opportunity to contribute technical expertise to large-scale, mission-critical applications.
+            </p>
+        </section>
+
+        <div class="two-column">
+            <section id="experience" class="glass-card">
+                <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                <div class="timeline-item">
+                    <h3>Software Development Attachee</h3>
+                    <p class="meta">Appkings Solution Limited | Nairobi</p>
+                    <ul>
+                        <li>Developed backend logic and integrated MySQL databases for business systems.</li>
+                        <li>Performed rigorous software testing and debugging to ensure deployment readiness.</li>
+                        <li>Collaborated with senior developers using <strong>SDLC</strong> best practices.</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="education" class="glass-card">
+                <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                <div class="timeline-item">
+                    <h3>BSc. Software Engineering</h3>
+                    <p class="meta">Kirinyaga University (2023 - Present)</p>
+                    <p>Current Status: <strong>Third Year, Semester I</strong></p>
+                    <div class="course-tags">
+                        <span>Java OOP</span> <span>Data Structures</span> <span>Database Systems</span> <span>PHP</span>
+                    </div>
+                </div>
+            </section>
         </div>
-      </div>
-    </section>
 
-    <section id="projects">
-      <h2>Selected Projects</h2>
-      <div class="project">
-        <h3>🔹 Django-Based Point of Sale (POS) System</h3>
-        <p>A full-featured POS with role-based access, inventory management, and daily sales tracking. Focused on scalability and modular architecture.</p>
-        <p><strong>Tech:</strong> Django, Python, MySQL, Git</p>
-      </div>
-      <div class="project">
-        <h3>🔹 Educational Online Platform</h3>
-        <p>Web-based learning platform offering free resources with structured content organization and secure authentication.</p>
-        <p><strong>Tech:</strong> HTML, CSS, JavaScript, PHP</p>
-      </div>
-      <a href="https://github.com/pmemphis" target="_blank" class="github-link">View GitHub: pmemphis</a>
-    </section>
+        <section id="skills" class="glass-card">
+            <h2><i class="fas fa-code"></i> Technical Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-box"><h4>Languages</h4><p>Python, Java, PHP, JavaScript, SQL</p></div>
+                <div class="skill-box"><h4>Frameworks</h4><p>Django, HTML5, CSS3, RESTful APIs</p></div>
+                <div class="skill-box"><h4>Tools</h4><p>Git, GitHub, MySQL, BC200, MS Office</p></div>
+            </div>
+        </section>
 
-    <section id="contact">
-      <h2>Contact Me</h2>
-      <div class="contact-grid">
-        <a href="mailto:pinidymwendia8@gmail.com" class="btn">Email Me</a>
-        <a href="https://www.linkedin.com/in/mwithalie-pinidy-7a0350366" target="_blank" class="btn">LinkedIn Profile</a>
-        <a href="tel:+254741189878" class="btn">Call Now</a>
-      </div>
-    </section>
+        <section id="projects">
+            <h2 class="section-title">Strategic Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Django-Based POS System</h3>
+                        <p>A full-scale enterprise solution featuring role-based access, inventory management, and automated sales reporting.</p>
+                        <div class="tags"><span>Python</span> <span>Django</span> <span>MySQL</span></div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-info">
+                        <h3>Educational Online Platform</h3>
+                        <p>A scalable learning management system designed to provide resources for underprivileged students.</p>
+                        <div class="tags"><span>PHP</span> <span>JavaScript</span> <span>UI/UX</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <section id="resume">
-      <h2>Resume</h2>
-      <p>Available for Industrial Attachment II starting May.</p>
-      <a href="#" class="download-btn" onclick="alert('PDF not linked yet. Upload your CV to your hosting folder!'); return false;">Download Full CV (PDF)</a>
-    </section>
-  </main>
+    </main>
 
-  <footer>
-    <p>&copy; 2026 Mwithalie Pinidy Mwendia | Committed to Continuous Growth</p>
-  </footer>
+    <footer id="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>Currently seeking Attachment II starting May 2026.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/mwithalie-pinidy-7a0350366" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/pmemphis" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="mailto:pinidymwendia8@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">&copy; 2026 Mwithalie Pinidy Mwendia. Built with Precision.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
